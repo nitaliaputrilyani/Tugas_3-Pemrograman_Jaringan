@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+html{
+    height: 110%;
+}
+h1{
+    text-align: center;
+}
+body{
+    background: whitesmoke;
+    padding: 2rem 4rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1{
+    color: darkcyan;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    background-color: aliceblue;
+}
+
+.card {
+    background: #000000d0;
+    color: white;
+    border-radius: 30px;
+    width: 200%;
+    max-width: 900px;
+    margin: 1rem;
+}
+
+#input{
+    font-size: 18px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background: aliceblue;
+}
+#search{
+    background: none;
+    padding: 5px 20px;
+    color: black;
+    outline: none;
+    background: aquamarine;
+    font-size: 17px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+.weather{
+    text-align: center;
+    color: aliceblue;
+}
+#city{
+    font-size: 30px;
+    color: aqua;
+}
+.weather img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgba(240, 248, 255, 0.408);
+}
+#temperature{
+    font-size: 50px;
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.temp-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+#clouds{
+    font-size: 20px;
+    background: rgba(153, 205, 50, 0.778);
+    padding: 2px 20px;
+    border-radius: 15px;
+}
+main{
+    display: grid;
+    grid-column-gap: 25px;
+    grid-template-columns: 1fr 5px 1fr;
+    align-items: center;
+    margin: 0 50px;
+    color: white;
+}
+.next{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.next p,.next h3{
+    margin: 3px 0;
+}
+.forecstD,.forecstH{
+    margin: 20px 50px;
+    color: aliceblue;
+}
+.pekan{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.cast-header{
+    color: aliceblue;
+    background: rgba(254, 189, 132, 0.539);
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.cuaca1,.cuaca2{
+    background: rgba(132, 254, 163, 0.738);
+    height: 200px;
+    border-radius: 5px;
+}
+.cuaca2{
+    height: 5px;
+    width: 30%;
+    margin: 0 auto;
+}
+.time,.date{
+    color: rgb(108, 245, 254);
+}
+.desc{
+    color: rgb(240, 209, 32);
+}
